@@ -14,6 +14,9 @@ production stylesheet in assets/built/screen.css using: npm run dev
 @import "components/forms.css";
 @import "components/buttons.css";
 
+/*pax components*/
+@import "components/pax-sidebar.css";;
+
 /* Ghost components */
 @import "ghost/header.css";
 @import "ghost/content.css";
@@ -24,6 +27,7 @@ production stylesheet in assets/built/screen.css using: npm run dev
 @import "ghost/badge.css";
 @import "ghost/pagination.css";
 @import "ghost/comments.css";
+
 
 
 

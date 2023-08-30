@@ -1,0 +1,15 @@
+{{!--
+Re-usable card for linking to posts
+--}}
+
+    <div class="pax-logobag">
+        {{#if @site.logo}}
+            <img src="{{@site.logo}}" alt="{{@site.title}}" style="object-fit:contain"/>
+        {{else}}
+        {{@site.title}}
+        {{/if}}
+    </div>
+    <div style="width:100%;display:flex; align-content: center; flex-direction:column;">
+        <a style="text-align: center;">{{@custom.cta_tagline}}</a>
+        {{navigation}}
+    </div>
